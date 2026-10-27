@@ -15,3 +15,11 @@ h1 {
 h2 {
     color:rgb(228, 87, 233)
 }
+
+.box {
+  margin: 40px 0;
+  border: 4px dashed darkgreen;
+  padding: 60px;
+  border-width: 3px;
+  background-color: rgb(172, 223, 179);
+}
