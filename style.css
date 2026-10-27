@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 24px;
+  background-color: rgb(179, 219, 185);
+}
+
+h1 {
+    Color: blue;
+}
+
+h2 {
+    color:rgb(228, 87, 233)
+}
