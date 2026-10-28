@@ -31,6 +31,28 @@
     <section id="join" class="box">
         <h2>Join our club</h2>
         <p>If you're interested in joining our club please fill out the form below</p>
+
+      <form>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required>  
+        
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      
+         <label for="session">Preferred first session day?</label>
+         <select id="session" name="session">
+            <option value="">Select a day</option>
+            <option value="first">November 7th</option>
+            <option value="second">November 14th</option>
+            <option value="third">Either</option>
+         </select>
+
+         <label for="message">Any questions or comments?</label>
+         <textarea id="message" name="message" placeholder="Your questions or comments" rows="4"></textarea>
+      
+         <button type="submit">Sign up</button>
+        </form>
+
     </section>
     
 <script src="script.js"></script>

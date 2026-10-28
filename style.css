@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,11 +13,11 @@ body {
 }
 
 h1 {
-    Color: blue;
+  color: blue;
 }
 
 h2 {
-    color:rgb(228, 87, 233)
+  color: rgb(228, 87, 233);
 }
 
 .box {
@@ -22,4 +26,25 @@ h2 {
   padding: 60px;
   border-width: 3px;
   background-color: rgb(172, 223, 179);
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 30rem;
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  font: inherit;
 }
