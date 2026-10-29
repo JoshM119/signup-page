@@ -56,12 +56,15 @@
         <h2>Join our club</h2>
         <p>If you're interested in joining our club please fill out the form below</p>
 
-      <form>
+      <form autocomplete="off">
         <label for="name">Your name</label>
-        <input type="text" id="name" name="name" required>  
+        <input type="text" id="name" name="name" placeholder="John Doe" required>  
         
         <label for="email">Your email</label>
         <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="password">Create a password for club</label>
+        <input type="password" id="password" name="password" required>
       
          <label for="session">Preferred first session day?</label>
          <select id="session" name="session">
