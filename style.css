@@ -12,6 +12,14 @@ body {
   background-color: rgb(179, 219, 185);
 }
 
+header {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
 h1 {
   color: blue;
 }
@@ -89,4 +97,25 @@ form {
 
 span {
   color:rgb(0, 4, 253)
+}
+
+.hero {
+  background-color: rgba(172, 223, 179, 1);
+  color: rgb(0, 0, 0);
+  padding: 64px 24px;
+  text-align: center;
+  border: solid;
+  border-color: darkgreen;
+  border-radius: 6px;
+  border-width: 4px;
+}
+
+.cta {
+  display: inline-block;
+  background-color: gold;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
 }
